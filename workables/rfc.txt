@@ -1,0 +1,18 @@
+Introduction:
+This RFC proposes the creation of a custom configuration provider for .NET Core that allows developers to easily and efficiently retrieve configuration settings from various sources, such as a database, a cloud service, or a custom storage system.
+Motivation:
+Currently, .NET Core provides several built-in configuration providers, such as the JSON, XML, and INI providers. These providers are useful for reading configuration settings from local files, but they are not suitable for all use cases. For example, if you need to retrieve configuration settings from a database or a cloud service, you would need to write your own custom provider.
+Additionally, with the increasing number of applications running on distributed systems, and the need to refresh configuration settings dynamically, the need to have an efficient and flexible way to retrieve these settings has become more important than ever.
+Proposal:
+The proposed custom configuration provider should have the following features:
+•	Support for reading configuration settings from various sources, such as a database, a cloud service, or a custom storage system.
+•	Support for refreshing configuration settings dynamically.
+•	Support for caching configuration settings to improve performance.
+•	Support for hierarchical configuration settings, similar to the way the JSON and XML providers work in .NET Core.
+•	Support for encrypting and decrypting sensitive configuration settings.
+•	Support for customizing the way configuration settings are retrieved and stored.
+•	Integration with the existing .NET Core configuration system, so that developers can use the custom provider in the same way as the built-in providers.
+Impact:
+This proposal would improve the flexibility and efficiency of .NET Core applications that need to retrieve configuration settings from various sources. It would also provide a more robust and secure way to handle sensitive configuration settings.
+Conclusion:
+The proposed custom configuration provider for .NET Core would provide a powerful and flexible way to handle configuration settings in a variety of use cases. It would also improve the security and performance of applications that need to handle sensitive configuration settings.
