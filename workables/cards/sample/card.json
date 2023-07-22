@@ -1,11 +1,11 @@
 {
   "TemplateDataModel": "CardImageModel",
-  "Title": "Microsoft MVP - George Kosmidis",
-  "Description": "Microsoft MVP - George Kosmidis",
+  "Title": "Nathan (Nate) Burleson",
+  "Description": "Nathan (Nate) Burleson",
   "Footer": "",
-  "Link": "https://mvp.microsoft.com/en-us/PublicProfile/5004591",
+  "Link": "https://www.linkedin.com/in/nathanburleson/",
   "LinkTarget": "_blank",
-  "ImageUrl": "/media/image-card.jpg",
+  "ImageUrl": "/media/chit-town.jpg",
   "Position": 3,
   "IsSticky": true,
   "RightColumnPosition" : 1

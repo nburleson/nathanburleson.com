@@ -1,13 +1,13 @@
 {
-  "RelativeUrl": "/just-add-a-url-you-want-this-article-to-live.html",
-  "Title": "This is a sample blog post",
-  "Description": "That's a small description for the card view",
-  "DatePublished": "2013-04-25T13:51:24+02:00",
-  "DateModified": "2021-12-26T17:23:53+01:00",
-  "RelativeImageUrl": "/media/100010-sample.jpg",
+  "RelativeUrl": "/home-and-met-west.html",
+  "Title": "My home is former location of Metropolitan West Grand Street Station",
+  "Description": "Home is former Met West Station",
+  "DatePublished": "2023-07-22T16:35:44+00:00",
+  "DateModified": "2023-07-22T16:35:44+00:00",
+  "RelativeImageUrl": "/media/damen-milwaukee92.jpg",
   "Tags": [
-    "one tag",
-    "two tags",
-	"more tags"
+    "home",
+    "metropolitan west",
+  	"research"
   ]
 }

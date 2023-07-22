@@ -19,4 +19,4 @@ dotnet Blog.Builder.dll --workables ..\workables --output ..\_output
 
 #Go back and cleanup
 Set-Location $cl 
-Remove-Item $tmpFolder -Recurse -Force 
+Remove-Item $tmpFolder -Recurse -Force
