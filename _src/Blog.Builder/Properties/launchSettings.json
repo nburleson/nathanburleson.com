@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Blog.Builder": {
-      "commandName": "Project",
-      "commandLineArgs": "--workables \"..\\..\\..\\..\\..\\workables\" --output \"..\\..\\..\\..\\..\\_output\" "
-    }
-  }
-}
