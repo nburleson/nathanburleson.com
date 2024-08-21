@@ -1,4 +1,4 @@
-# This is my personal website. Thanks for checking in.
+## Blog Entries
 
 <ul>
   {% for post in site.posts %}
