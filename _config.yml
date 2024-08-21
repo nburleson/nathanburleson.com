@@ -1,0 +1,54 @@
+# Site settings
+title: Nathan Burlson dot com
+description: A personal website
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://nathanburleson.com" # the base hostname & protocol for your site
+author: 
+  name: Nate Burleson
+  email: me@nathanburleson.com
+
+# Build settings
+markdown: kramdown
+theme: minima # Default theme, you can change it to other themes
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Permalinks
+permalink: /:categories/:year/:month/:day/:title.html
+
+# Collections
+collections:
+  my_collection:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Nathan Burleson"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Social Links (optional)
+social_links:
+  github: your_github_handle
+
+# Optional settings
+highlighter: rouge
