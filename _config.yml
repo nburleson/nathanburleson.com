@@ -9,11 +9,10 @@ author:
 
 # Build settings
 markdown: kramdown
-remote_theme: pages-themes/hacker@v0.2.0
+theme: jekyll-agency
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-remote-theme
 
 # Permalinks
 permalink: /:categories/:year/:month/:day/:title.html
