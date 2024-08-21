@@ -1,15 +1,15 @@
 # Site settings
-title: Nathan Burlson dot com
+title: Nathan Burleson dot com
 description: A personal website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nathanburleson.com" # the base hostname & protocol for your site
 author: 
   name: Nate Burleson
-  email: me@nathanburleson.com
+  email: me+nbdotcom@nathanburleson.com
 
 # Build settings
 markdown: kramdown
-theme: minima # Default theme, you can change it to other themes
+theme: jekyll-agency
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
